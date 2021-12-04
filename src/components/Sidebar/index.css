@@ -1,0 +1,41 @@
+.sidebarcontainer{
+    width: 27%;
+}
+
+.cardHeader{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color:#565673;
+    font-weight: bold;
+}
+
+.nav{
+    text-decoration: none;
+}
+
+.recentPost{
+    margin:10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.recentPost h3{
+    color: #666;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.recentPost span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #6c6c66;
+}
+
+.recentPost h3:hover{
+    color: #5f9ea0;
+}
