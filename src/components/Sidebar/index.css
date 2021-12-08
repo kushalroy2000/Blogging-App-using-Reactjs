@@ -39,3 +39,24 @@
 .recentPost h3:hover{
     color: #5f9ea0;
 }
+
+@media (max-width: 768px) {
+    .cardHeader{
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .recentPost{
+        margin:5px;
+        margin-bottom: 8px;
+    }
+
+    .recentPost h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .recentPost span{
+        font-size: 8px;
+        font-weight: 300;
+    }
+}

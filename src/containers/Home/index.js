@@ -13,7 +13,7 @@ export default function Home() {
         blogText: '',
         author: '',
         image: '',
-        postedOn: ""
+        postedOn: ''
     }
 
     const [user, setuser] = useState(initialValue);
@@ -67,7 +67,7 @@ export default function Home() {
                     <Input onChange={(e) => onValueChange(e)} name="image" type="file" />
                 </FormControl>
             </FormGroup>
-            <Button variant="contained" onClick={() => addPostDetails(), () => timeUpdate()} color="primary">Submit</Button>
+            <Button variant="contained" onClick={() => addPostDetails()} color="primary">Submit</Button>
         </div>
     )
 }
